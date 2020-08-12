@@ -1,0 +1,53 @@
+/*#fishtank { }
+.fish { }
+.fishname__ { }*/
+
+.shop {
+    flex-basis: 16%;
+    border: 3px double chocolate;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; /* Center align the text in the boxes */
+    font-weight: bold;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pageHeader {
+    text-align: center;
+    font-weight: bolder;
+}
+.officials {
+    flex-basis: 16%;
+    border: 3px double black;
+    padding: 1em;
+    margin: 0.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center; /* Center align the text in the boxes */
+    font-weight: bold;
+    justify-content: center;
+}
+.committees {
+    display: flex;
+    flex-basis: 16%;
+    flex: 1 1 auto;
+    border: 3px double black;
+    /*border-image-source: url(https://images-na.ssl-images-amazon.com/images/I/51DvmgqHb9L._AC_SL1200_.jpg);*/
+    padding: 1em;
+    margin: 0.5em;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+    text-align: center; /* Center align the text in the boxes */
+    font-weight: bold;
+    color: purple;
+    background-color: black;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/51DvmgqHb9L._AC_SL1200_.jpg);
+    /*height: 50px;
+    width: 1000px;
+    margin-left: 400px;*/
+    align-items: center;
+}

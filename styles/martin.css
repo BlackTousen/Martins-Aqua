@@ -1,0 +1,85 @@
+.header {
+    text-align: center;
+    border: 3px double black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-weight: bold;
+    padding: 5px;
+    height: 25px;
+}
+.footer {
+    text-align: center;
+    border: 3px double black;
+    height: 25px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-weight: bold;
+    padding: 5px;
+}
+/*.table {
+    width: 75%;
+    text-align: center;
+    border: black double 2px;
+    border-collapse: collapse;
+}
+.td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+.th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .tr:nth-child(even) {
+    background-color: #dddddd;
+  }*/
+  .aside {
+      text-align: center;
+      border: double black 1px;
+      vertical-align: middle;
+      float: right;
+      clear: right;
+      width: 320px;
+      font-size: 14px;
+      border: solid thin;
+      border-color: #999999;
+      background-color: #ffffff;
+      box-shadow: 10px 10px 5px #888888;
+      margin: 0 20px 15px 25%;
+      overflow-x: auto;
+      background-color: grey;
+      color: indigo;
+  }
+  .cards {
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex: 3;
+  }
+ .card {
+     text-align: left;
+    margin-left: 10px;  
+    border: black 3px double;
+  }
+.atitle {
+    color: black;
+    background-color: #ea9999;
+    font-weight: bold;
+    padding: 5px;
+
+}
+.recommend {
+    border: firebrick double 3px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
